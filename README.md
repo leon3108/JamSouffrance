@@ -1,4 +1,4 @@
-# Welcome to RType project repository
+# Welcome to Jam project repository
 ![GitHub Release](https://img.shields.io/badge/release-v0.2.1-informational)
 ![GitHub Release Date](https://img.shields.io/badge/release-march-yellow)
 ![GitHub Raylib](https://img.shields.io/badge/Raylib-4.0.0-green)

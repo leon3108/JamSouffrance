@@ -7,7 +7,7 @@
 int main()
 {
     try {
-        Core core({1920, 1080}, "r-type", 60);
+        Core core({1920, 1080}, "jam", 60);
     } catch (std::exception& e) {
         std::cout << "error :" << e.what() << std::endl;
     }
