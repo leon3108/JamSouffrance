@@ -1,0 +1,8 @@
+r-type_server
+r-type_client
+build/*
+*r-type*
+launch_cmake.sh
+build/
+.vs/
+assets/
