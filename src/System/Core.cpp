@@ -42,7 +42,7 @@ Core::Core(ScreenSize screenSize, std::string name, int fps)
     _players.push_back(reinterpret_cast<Player *>(_playerFactory->create()));
     _players.at(0)->getObjectComp()->setRefRect({0.0f, 0.0f, (float)_players.at(0)->getObjectComp()->getTexture().width / 5, (float)_players.at(0)->getObjectComp()->getTexture().height / 5});
     _players.at(0)->getPositionComp()->setPosition({400, 400});
-    _players.at(0)->setKeys({R_TYPE_UP, R_TYPE_RIGHT, R_TYPE_DOWN, R_TYPE_LEFT});
+    _players.at(0)->setKeys({KEY_Z, KEY_D, KEY_S, KEY_Q});
     _gameState = MENU;
     handleState();
 }
