@@ -3,4 +3,3 @@ build/*
 launch_cmake.sh
 build/
 .vs/
-assets/
